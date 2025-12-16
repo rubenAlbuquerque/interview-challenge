@@ -7,11 +7,11 @@
 
 ### SQL
 
--   check the sensores.sql file with the queries
+-   check the SQL/sensores.sql file with the queries
 
 ### Spark
 
--   check the readings.py file with the python code
+-   check the Spark/readings.py file with the python code
 
 ### Bash
 
@@ -35,3 +35,4 @@ The command find "$DIRECTORY" -type f -mtime +180 -exec rm -f {} \; does the fol
     3. Multiprocessing is used to run queries in parallel.
     4. The results of the queries are combined into a single DataFrame.
     5. The combined DataFrame is saved as a Parquet file for later analysis and consumption.
+
