@@ -81,5 +81,3 @@ def extract_hourly_data(execution_date):
 
 
 
-# 2. Configuração do Produtor Kafka
-
